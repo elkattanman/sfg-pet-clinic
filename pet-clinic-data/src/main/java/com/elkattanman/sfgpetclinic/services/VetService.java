@@ -4,10 +4,6 @@ import com.elkattanman.sfgpetclinic.model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
-    Vet findByid(Long id);
+public interface VetService extends CrudService<Vet , Long>{
 
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
