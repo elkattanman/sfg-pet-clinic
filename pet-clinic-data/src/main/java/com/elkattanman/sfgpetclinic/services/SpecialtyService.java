@@ -1,7 +1,7 @@
 package com.elkattanman.sfgpetclinic.services;
 
-import com.elkattanman.sfgpetclinic.model.Speciality;
+import com.elkattanman.sfgpetclinic.model.Specialty;
 
 
-public interface SpecialtyService extends CrudService<Speciality, Long> {
+public interface SpecialtyService extends CrudService<Specialty, Long> {
 }
