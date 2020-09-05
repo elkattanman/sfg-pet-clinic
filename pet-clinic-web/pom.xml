@@ -59,6 +59,7 @@
             <artifactId>jquery</artifactId>
             <version>${webjars-jquery.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery-ui</artifactId>
